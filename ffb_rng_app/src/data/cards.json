@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Team Alpha",
+    "nickname": "The Pioneers",
+    "players": [
+      { "name": "Alice", "avatar": "https://ui-avatars.com/api/?name=Alice&background=random&color=fff&rounded=true" },
+      { "name": "Bob", "avatar": "https://ui-avatars.com/api/?name=Bob&background=random&color=fff&rounded=true" },
+      { "name": "Charlie", "avatar": "https://ui-avatars.com/api/?name=Charlie&background=random&color=fff&rounded=true" }
+    ]
+  },
+  {
+    "name": "Team Beta",
+    "nickname": "The Challengers",
+    "players": [
+      { "name": "David", "avatar": "https://ui-avatars.com/api/?name=David&background=random&color=fff&rounded=true" },
+      { "name": "Eve", "avatar": "https://ui-avatars.com/api/?name=Eve&background=random&color=fff&rounded=true" },
+      { "name": "Frank", "avatar": "https://ui-avatars.com/api/?name=Frank&background=random&color=fff&rounded=true" }
+    ]
+  }
+]
