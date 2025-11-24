@@ -1,16 +1,15 @@
-# React + Vite
+# Random Keeper Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Use Case
+Create a random number generator for selecting keepers. This is mainly for practice with React. Trying to keep this simple (famouse last words).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+- Using mostly CoPilot to make this quickly
+- Can currently work as intended
+- Next step is to pull in Yahoo FFB API
+  - Auto pull current rosters for each team
+  - Pull original draft data for each player
+  - calculate what draft position the cut will result in
+    - will require referencing whether or not the play is on the team that was drafted
+    - i.e. players not on team are automatically placed in round 9 for keeper selection
+    - optional: check to see if the player was kept on the team each season (want to eliminate dropped and picked back up players)

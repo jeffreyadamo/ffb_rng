@@ -44,7 +44,6 @@ export default function Body({ teams, setTeams, cutPlayers, setCutPlayers }) {
         ))}
       </Row>
 
-      <h4 className="mt-5">Eliminated Players:</h4>
       <div className="d-flex flex-wrap gap-4">
         {cutPlayers.map((player, index) => (
           <div key={index} className="text-center">
