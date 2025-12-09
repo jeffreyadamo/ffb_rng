@@ -10,26 +10,21 @@ import initialData from '../data/cards.json';
 export default function Body({ teams, setTeams, cutPlayers, setCutPlayers }) {
     const eliminateRandomPlayer = (teamIndex) => {
     const team = teams[teamIndex];
-
     if (team.players.length === 0) return;
-
     const randomIndex = Math.floor(Math.random() * team.players.length);
     const eliminated = team.players[randomIndex];
-
     const remainingPlayers = team.players.filter((_, i) => i !== randomIndex);
-
     const updatedTeam = {
         ...team,
         players: remainingPlayers,
         cutPlayers: [...(team.cutPlayers || []), eliminated],
     };
-
     const updatedTeams = teams.map((t, i) =>
         i === teamIndex ? updatedTeam : t
     );
-
     setTeams(updatedTeams);
     };
+    
   return (
     <Container className="my-5">
       <Row xs={1} md={2} lg={3} className="g-4">

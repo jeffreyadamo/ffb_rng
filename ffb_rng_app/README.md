@@ -13,3 +13,7 @@ Create a random number generator for selecting keepers. This is mainly for pract
     - will require referencing whether or not the play is on the team that was drafted
     - i.e. players not on team are automatically placed in round 9 for keeper selection
     - optional: check to see if the player was kept on the team each season (want to eliminate dropped and picked back up players)
+
+## Server
+- starting a separate server on localhost:5000
+- 

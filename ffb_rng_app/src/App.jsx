@@ -4,6 +4,7 @@ import Hero from './components/Hero.jsx';
 import Body from './components/Body.jsx';
 import Footer from './components/Footer.jsx';
 import initialData from './data/cards.json';
+import LandingPage from './components/LandingPage.jsx';
 
 function App() {
   const [teams, setTeams] = useState(initialData);
@@ -24,6 +25,7 @@ function App() {
         cutPlayers={cutPlayers}
         setCutPlayers={setCutPlayers}
       />
+      <LandingPage />
       <Footer />
     </div>
   );
